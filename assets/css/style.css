@@ -8,7 +8,6 @@ body{
 }
 a{
   text-decoration: underline;
-  /* color: rgb(255, 255, 255); */
   color: #333;
 }
 .logo-image{
@@ -358,8 +357,6 @@ footer
   }
 }
 
-
-
 /* second-header */
 #second-header{
   width: 100%;
@@ -551,15 +548,12 @@ blog
     object-fit: cover;
   }
 }
-
-/* gallery */
-
+/* gallery page*/
 .container{
   width: 90%;
   margin: 0 auto;
  
 }
-
 .masonry{
   list-style: none;
   margin: 0 auto;
@@ -569,7 +563,6 @@ blog
   width: 300px;
   margin-bottom: 15px;
 }
-
 .item img{
   width: 100%;
 }
