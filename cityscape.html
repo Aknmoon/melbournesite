@@ -4,29 +4,35 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-
+  <title>City</title>
   <meta name="description" content="sample text sample text sample text sample text sample text">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Oswald:wght@400;500;600&family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Oswald:wght@400;500;600&family=Playfair+Display:wght@400;700&family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+
+
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Oswald:wght@400;500;600&family=Raleway:wght@400;500;700&display=swap" rel="stylesheet"> -->
 
   <link rel="stylesheet" href="./assets/css/sanitize.css">
   <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!-- <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicon/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon//favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon//favicon-16x16.png">
   <link rel="manifest" href="./assets/images/favicon//site.webmanifest">
-  <link rel="mask-icon" href="./assets/images/favicon//safari-pinned-tab.svg" color="#5bbad5"> -->
+  <link rel="mask-icon" href="./assets/images/favicon//safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
 </head>
 <body>
-  <header id="second-header">
+  <!-- <header id="second-header">
     <h1 class="second-logo">
-      <a href="index.html"><img src="./assets/images/logo.jpg" width="80" height="auto" alt="cornet"></a>
+      <a href="index.html"><img class="logo-image" src="./assets/images/logo.jpg" alt="cornet"></a>
     </h1>
     <nav class="second-header-nav">
       <ul class="second-header-navlist">
@@ -42,21 +48,42 @@
         <li class="second-header-navitem">
           <a href="cafe.html">Cafe</a>
         </li>
-        <li class="second-header-navitem">
-          <a href="blog1.html">Blog</a>
-        </li>
       </ul>
     </nav>   
+  </header> -->
+
+  <header class="header">
+    <h1 class="header-logo">
+      <a href="index.html">
+        <img class="logo-image" src="./assets/images/logo.jpg" alt="cornet">
+      </a>
+    </h1>
+    <nav class="header-nav">
+      <ul class="header-navlist">
+        <li class="header-navitem">
+          <a href="cityscape.html">City</a>
+        </li>
+        <li class="header-navitem">
+          <a href="tram.html">Tram</a>
+        </li>
+        <li class="header-navitem">
+          <a href="nature.html">Nature</a>
+        </li>
+        <li class="header-navitem">
+          <a href="cafe.html">Cafe</a>
+        </li>
+           
+      </ul>
+    </nav>
   </header>
 
   <section class="section" id="cityscape">
-    <!-- <h1 class="section-headline">Nature</h1> -->
     <figure class="feature-content">
       <img class="feature-content-image" src="./assets/images/slv.jpg" alt="State Library Victoria">
       <figcaption class="feature-content-caption">
         <h2 class="feature-content-headline">State Library Victoria</h2>
         <p class="feature-content-description">
-          「世界で最も美しい図書館」と言われるビクトリア州立図書館は1854 年にメルボルン公共図書館として設立されたビクトリア州立図書館はオーストラリア最古の図書館。4～6階が吹き抜けになっており、机が放射線状に配置されたラ・トローブ・リーディングルームは、図書館とは思えない美しいデザイン空間が広がっています。図書館の前の緑の芝生は人気の集まりスポットであり、イベントなども開催されるようです。
+          「世界で最も美しい図書館」と言われるビクトリア州立図書館は1854 年にメルボルン公共図書館として設立されたオーストラリア最古の図書館。4～6階が吹き抜けになっており、机が放射線状に配置されたラ・トローブ・リーディングルームは、図書館とは思えない美しいデザイン空間が広がっています。図書館の前の緑の芝生は人気の集まりスポットであり、イベントなども開催されるようです。
         </p>
         <a href="https://goo.gl/maps/wMrYDckhkn9QPDQWA" target="_blank">Google Map</a>
 
@@ -65,13 +92,13 @@
 
     <figure class="feature-content" id="second">
       <figcaption class="feature-content-caption">
-        <h2 class="feature-content-headline">Louis Vuitton Melbourne Collins Street</h2>
+        <h2 class="feature-content-headline">Queen Victoria Market</h2>
         <p class="feature-content-description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ullam ratione hic perspiciatis, dolorem ipsum dolore natus nam laborum similique qui saepe suscipit commodi cumque in placeat. Inventore, odio cupiditate.<br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis vitae aperiam, omnis nihil eligendi voluptates eius. Tenetur, sed dicta aspernatur aliquam provident ipsum dignissimos, natus adipisci odio repellendus possimus distinctio!
+          クイーンビクトリアマーケットはメルボルンでとても人気のある観光スポットとなっています。マーケットの場内はとても広く600以上もの店舗が立ち並んでいるそうです!全部丁寧に見て回ろうと思ったら何時間もかかりそうな広さのマーケットなのでお目当てのものがある場合は事前に調べていたほうが良さそうです。またマーケットにはフードコートやカフェもあり、朝食やランチ、コーヒーブレイクしながら、のんびりとショッピングすることもできます。このようなマーケットは日本には無い空間なので、海外の独特の非日常を味わえますし、旅行の思い出となること間違いなしです!
         </p>
-        <a href="https://goo.gl/maps/8fYZ5TLS9iYTdwkv8" target="_blank">Google Map</a>
+        <a href="https://maps.app.goo.gl/PPzsZTCz6ATmqYCF6" target="_blank">Google Map</a>
       </figcaption>
-      <img class="feature-content-image" src="./assets/images/lv.jpg" alt="carlton">
+      <img class="feature-content-image" src="./assets/images/QueenVictoriaMarket1.jpg" alt="Queen Victoria Market">
     </figure>
 
     <figure class="feature-content">
@@ -79,16 +106,13 @@
       <figcaption class="feature-content-caption">
         <h2 class="feature-content-headline">The Princess Theatre</h2>
         <p class="feature-content-description">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ullam ratione hic perspiciatis, dolorem ipsum dolore natus nam laborum similique qui saepe suscipit commodi cumque in placeat. Inventore, odio cupiditate. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis vitae aperiam, omnis nihil eligendi voluptates eius. Tenetur, sed dicta aspernatur aliquam provident ipsum dignissimos, natus adipisci odio repellendus possimus distinctio!
+          メルボルンには有名なリージェントシアターや大小さまざまなシアターがあります。その中の一つ、プリンセス劇場は州議事堂の向かいあり、メルボルンを代表する劇場の一つとして長年市民に親しまれています。これまでも”オペラ座の怪人”、”美女と野獣”など錚々たるミュージカルが上演されており、2023年4月に行った際はハリーポッターが上演されていました。メルボルンには歴史的な建物が数多くあり、プリンセス劇場も1854年に開業した歴史ある劇場でありながら、近代的な街並みと美しく融合しています。
         </p>
         <a href="https://goo.gl/maps/ikg1nbxiJUm7LHEd7" target="_blank">Google Map</a>
 
       </figcaption>
     </figure>
   </section>
-
-
-
   
 </body>
 </html>
